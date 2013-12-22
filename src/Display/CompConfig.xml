@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : CompConfig.xml
+    Created on : 27 July 2007, 12:28
+    Author     : Alex Billingsley
+        
+Copyright (C) 2010 Alex Billingsley, email@alexbillingsley.co.uk
+www.dragmath.bham.ac.uk
+ 
+ This file is part of DragMath.
+
+    DragMath is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    DragMath is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with DragMath. If not, see <http://www.gnu.org/licenses/>.
+
+    -->
+
+<Components>
+    <Multiply       ID="0"  group="1"   iconFileName="multiplication.gif" alternativeDisplay="">·</Multiply>
+    <Divide         ID="1"  group="0"   iconFileName="division.gif"         ></Divide>  
+    <Add            ID="2"  group="1"   iconFileName="addition.gif"         >+</Add> 
+    <Subtract       ID="3"  group="2"   iconFileName="subtraction.gif"      >−</Subtract>  
+    <Comma          ID="4"  group="1"   iconFileName="comma.gif"            >,</Comma>
+    
+    <SquareRoot     ID="5"  group="0"   iconFileName="square root.gif"      >√</SquareRoot>  
+    <NthRoot        ID="6"  group="0"   iconFileName="n-th root.gif"        >√</NthRoot>  
+    <Power          ID="7"  group="0"   iconFileName="superscript.gif"      >^</Power>  
+    <Subscript      ID="8"  group="0"   iconFileName="subscript.gif"        >Subscript</Subscript>  
+    <Matrix         ID="9"  group="0"   iconFileName="matrix.gif"           >Matrix</Matrix>  
+    <LessThan       ID="10" group="2"   iconFileName="less than.gif"        ><![CDATA[<]]></LessThan>  
+    <GreaterThan    ID="11" group="2"   iconFileName="more than.gif"        >></GreaterThan>  
+    <LTEQ           ID="12" group="2"   iconFileName="lteq.gif"             >≤</LTEQ>  
+    <GTEQ           ID="13" group="2"   iconFileName="mteq.gif"             >≥</GTEQ>
+    <Equals         ID="14" group="1"   iconFileName="equals.gif"           >=</Equals>
+    
+    <Union          ID="15" group="1"   iconFileName="union.gif"            >∪</Union>  
+    <Intersection   ID="16" group="1"   iconFileName="intersection.gif"     >∩</Intersection>  
+    <Subset         ID="17" group="2"   iconFileName="subset.gif"           >⊂</Subset>  
+    <SubsetEq       ID="18" group="2"   iconFileName="subseteq.gif"         >⊆</SubsetEq>  
+    <NSubset        ID="19" group="2"   iconFileName="notsubset.gif"        >⊄</NSubset>  
+    <NSubsetEq      ID="20" group="2"   iconFileName="nsubeq.gif"           >⊈</NSubsetEq> 
+    
+    <Sine           ID="21" group="3"   iconFileName="sin.gif"              >sin</Sine>  
+    <Cosine         ID="22" group="3"   iconFileName="cos.gif"              >cos</Cosine>  
+    <Tangent        ID="23" group="3"   iconFileName="tan.gif"              >tan</Tangent>  
+    <ArcSine        ID="24" group="3"   iconFileName="arcsin.gif"           >sin⁻¹</ArcSine>  
+    <ArcCosine      ID="25" group="3"   iconFileName="arccos.gif"           >cos⁻¹</ArcCosine>  
+    <ArcTangent     ID="26" group="3"   iconFileName="arctan.gif"           >tan⁻¹</ArcTangent>  
+    
+    <Logarithm      ID="27" group="3"   iconFileName="log.gif"              >log</Logarithm>
+    <NaturalLogarithm  ID="28" group="3" iconFileName="ln.gif"              >ln</NaturalLogarithm>  
+    <Exp            ID="29" group="0"   iconFileName="e.gif"                >e</Exp>  
+    <UMinus         ID="30" group="3"   iconFileName=""                     >-</UMinus>  
+    
+    <BracketsRnd    ID="31" group="5"   iconFileName="roundbr.gif"          >( )</BracketsRnd>  
+    <BracketsCurl   ID="32" group="5"   iconFileName="curlybr.gif"          >{ }</BracketsCurl>  
+    <BracketsSq     ID="33" group="5"   iconFileName="squarebr.gif"         >[ ]</BracketsSq>  
+    <Abs            ID="34" group="5"   iconFileName="absolute.gif"         >| |</Abs> 
+    
+    <GreekLetter    ID="35" group="4"   iconFileName="null"                 >Greek letter</GreekLetter>
+    <Infinity       ID="36" group="4"   iconFileName="infinity.gif"         >∞</Infinity>
+    
+    <Factorial      ID="37" group="0"   iconFileName="factorial.gif"        >!</Factorial>
+    
+    <SineH          ID="39" group="3"   iconFileName="sinh.gif"             >sinh</SineH>  
+    <CosineH        ID="40" group="3"   iconFileName="cosh.gif"             >cosh</CosineH>  
+    <TanH           ID="41" group="3"   iconFileName="tanh.gif"             >tanh</TanH>
+    <ArcSineH       ID="42" group="3"   iconFileName="arcsinh.gif"          >sinh⁻¹</ArcSineH>  
+    <ArcCosineH     ID="43" group="3"   iconFileName="arccosh.gif"          >cosh⁻¹</ArcCosineH>  
+    <ArcTanH        ID="44" group="3"   iconFileName="arctanh.gif"          >tanh⁻¹</ArcTanH>
+    
+    <Integral       ID="45" group="0"   iconFileName="integral.gif"         >∫</Integral>  
+    <Differential   ID="46" group="0"   iconFileName="differential.gif"     >Differential</Differential> 
+    
+    <Max            ID="47" group="3"   iconFileName="max.gif"              >max</Max>
+    <Min            ID="48" group="3"   iconFileName="min.gif"              >min</Min>
+    <Assignment     ID="49" group="2"   iconFileName="assignment.gif"       >:=</Assignment>
+    <Function       ID="50" group="0"   iconFileName="function.gif"         >Function</Function>
+    <Determinant    ID="51" group="3"   iconFileName="determinant.gif"      >det</Determinant>
+    <Trace          ID="52" group="3"   iconFileName="trace.gif"            >Tr</Trace>
+    <DefiniteIntegral ID="53" group="0" iconFileName="def_integral.gif"     >∫</DefiniteIntegral>
+    <Product        ID="54" group="0"   iconFileName="product.gif"          >∏</Product>
+    <Sum            ID="55" group="0"   iconFileName="sum.gif"              >∑</Sum>
+    <Limit          ID="56" group="0"   iconFileName="limit.gif"            >lim</Limit>
+    <Evaluate       ID="57" group="0"   iconFileName="evaluate.gif"         >eval</Evaluate>
+    <PlusMinus      ID="58"  group="2"  iconFileName="plusminus.gif"        >±</PlusMinus>  
+    <NotEqual       ID="59" group="2"   iconFileName="notequal.gif"         >≠</NotEqual>
+    
+    <LeftArrow      ID="60" group="2"   iconFileName="leftArrow.gif"        >←</LeftArrow>
+    <RightArrow     ID="61" group="2"   iconFileName="rightArrow.gif"       >→</RightArrow>
+    <UpArrow        ID="62" group="2"   iconFileName="upArrow.gif"          >↑</UpArrow>
+    <DownArrow      ID="63" group="2"   iconFileName="downArrow.gif"        >↓</DownArrow>
+    <LeftDblArrow   ID="64" group="2"   iconFileName="leftDblArrow.gif"     >⇐</LeftDblArrow>
+    <RightDblArrow  ID="65" group="2"   iconFileName="rightDblArrow.gif"    >⇒</RightDblArrow>
+    <LeftRightArrow ID="66" group="2"   iconFileName="leftRightArrow.gif"   >↔</LeftRightArrow>
+    <LeftRightDblArrow ID="67" group="2"   iconFileName="leftRightDblArrow.gif" >⇔</LeftRightDblArrow>
+    <NorthWestArrow    ID="68" group="2"   iconFileName="northWestArrow.gif"      >↖</NorthWestArrow>
+    <SouthWestArrow  ID="69" group="2"   iconFileName="southWestArrow.gif"    >↙</SouthWestArrow>
+    <NorthEastArrow   ID="70" group="2"   iconFileName="northEastArrow.gif"     >↗</NorthEastArrow>
+    <SouthEastArrow ID="71"  group="2"  iconFileName="southEastArrow.gif"   >↘</SouthEastArrow>  
+    
+    <Multiply2      ID="72" group="1"   iconFileName="multiply2.gif"        >×</Multiply2>
+    <Divide2        ID="73" group="2"   iconFileName="divide2.gif"          >÷</Divide2>
+    <Equiv          ID="74" group="1"   iconFileName="equiv.gif"            >≡</Equiv>
+    <Exists         ID="75" group="2"   iconFileName="exists.gif"           >∃</Exists>
+    <ForAll         ID="76" group="2"   iconFileName="forAll.gif"           >∀</ForAll>
+    <IsIn           ID="77" group="2"   iconFileName="isIn.gif"             >∈</IsIn>
+    <NotExists      ID="78" group="2"   iconFileName="notExists.gif"        >∄</NotExists>
+    <NotIn          ID="79" group="2"   iconFileName="notIn.gif"            >∉</NotIn>
+    <SimEq          ID="80" group="2"   iconFileName="simEq.gif"            >≃</SimEq>
+    <Or             ID="81" group="2"   iconFileName="or.gif"               >∨</Or>
+    <And            ID="82" group="2"   iconFileName="and.gif"              >∧</And>
+    <Not            ID="83" group="2"   iconFileName="not.gif"              >¬</Not>
+    
+    <PartialDifferential   ID="84" group="0"   iconFileName="partialDifferential.gif"     >Partial Differential</PartialDifferential>
+    
+</Components>

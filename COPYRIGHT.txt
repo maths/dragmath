@@ -1,0 +1,38 @@
+
+DragMath Copyright Information
+
+All source code in this package is written by Alex Billingsley except
+the libraries JDOM and JEP used.
+
+The copyright information for JDOM and JEP is included below.
+
+
+---------------------------------------------------------------------------------------------------
+JDOM					http://www.jdom.org
+---------------------------------------------------------------------------------------------------
+
+JDOM is available under an Apache-style open source license, with 
+the acknowledgment clause removed. This license is among the 
+least restrictive license available, enabling developers to use JDOM 
+in creating new products without requiring them to release their own
+ products as open source. This is the license model used by the 
+Apache Project, which created the Apache server. The license is 
+available at the top of every source file and in LICENSE.txt in the 
+root of the distribution.
+
+
+
+---------------------------------------------------------------------------------------------------
+JEP			     https://sourceforge.net/projects/jep/
+---------------------------------------------------------------------------------------------------
+
+JEP is licensed under the GNU General Public License (GPL) v3
+(http://www.gnu.org/licenses/gpl-3.0.txt)
+
+
+
+---------------------------------------------------------------------------------------------------
+glyFX Common Toolbar Set Icons                    http://www.glyfx.com
+---------------------------------------------------------------------------------------------------
+Icons used in software, license found at;
+http://www.glyfx.com/license-toolbar.html

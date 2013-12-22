@@ -1,0 +1,77 @@
+<html>
+<head>
+<title>Integration with Moodle</title>
+</head>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-6643167-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+<body>
+
+<font size="3"; style="font-family: Arial;">
+
+<p></p>
+<h1 style="text-align: center;"><span style="color: rgb(0, 0, 128);">DragMath</span></h1>
+<hr />
+
+<span style="color: rgb(0, 0, 128);">
+<center>
+<h4>
+<a href="index.html">Home</a>&nbsp;&nbsp;&nbsp;
+<a href="demo.html">Demonstration</a>&nbsp;&nbsp;&nbsp;
+<a href="index.html#Download">Download</a>&nbsp;&nbsp;&nbsp;
+<a href="doc/index.html">Documentation</a>&nbsp;&nbsp;&nbsp;
+<a href="integrations.html">Integrations</a>&nbsp;&nbsp;&nbsp;
+<a href="support.html">Support DragMath</a>&nbsp;&nbsp;&nbsp;
+<a href="FAQ.html">FAQ</a>&nbsp;&nbsp;&nbsp;
+<a href="index.html#Contact">Contact</a>
+</h4>
+</center>
+</span>
+
+<hr />
+
+
+<h2><a name="Integrations"><span style="color: rgb(0, 0, 128);">Integration with Moodle</span></a></h2>
+
+<a href="http://www.moodle.org/"><img border = "0" alt="" src="img/moodle.gif" align="middle"></a><br />
+Moodle is a free, open source course management system (CMS). Also known as a Learning Management System (LMS) or Virtual Learning Environment (VLE).  Moodle offers a self-contained DragMath integration and with the release of Moodle 2, DragMath will be included in the Moodle distribution.
+<br />
+<br />
+<P>PLEASE read the documentation at Moodle.org on using DragMath before installing.
+The documentation can be found at: <a href="http://docs.moodle.org/en/DragMath_equation_editor"
+target="_blank">http://docs.moodle.org/en/DragMath_equation_editor</a>.
+The zip archive for installing DragMath with Moodle integration can be downloaded
+<a href="http://sourceforge.net/projects/dragmath/files/DragMath/0.7.8.2/Moodle_DragMath_v0.7.8.2_Integration.zip/download">by clicking here</a>
+
+<p>In order to make DragMath installation for Moodle users as simple as
+possible, the DragMath package has been integrated with Moodle and
+a zip created so that the user can simply place the new zip in their Moodle
+root and unzip (no file shifting necessary). To accommodate this installation
+method a replacement for the file <tt>adminlib.php</tt> is not provided, though
+<tt>/lib/adminlib_exampleonly.php</tt> has been provided so that you can compare this
+version to your own version so as to make the quick line change in your own
+adinlib.php to allow you to hide the dragmath icon (by adding the icon to the
+adminlib.php icon array for the GUI.</p>
+
+<p>Credit for making the integration possible goes of course to Chris, Alex
+and the DragMath folks as well as to Mauno Korpelainen</p>
+<address>
+  NB: There has been discussion that a line in dialog.js has produced some
+  problems in Moodle version 1.9.5+ (the editor disappears) and that by
+  deleting the line that adds the dragmath icon the problem is resolved. This
+  may be an artifact of the impact of the icon sizing, so if you discover
+  such a situation please post at once to the Math Tools forum on Moodle.org
+  so that the situation can be fully documented and resolved.
+</address>
+
+<p>Marc Grober, May 2010</p>
+</font>
+
+</body>
+</html> 
